@@ -6,6 +6,8 @@ import { SummaryComponent } from './summary/summary.component';
 import { ExplorerComponent } from './explorer/explorer.component';
 import { VisualizerComponent } from './visualizer/visualizer.component';
 import { TableComponent } from './table/table.component';
+import { EbtnComponent } from './ebtn/ebtn.component';
+import { SbtnComponent } from './sbtn/sbtn.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { TableComponent } from './table/table.component';
     SummaryComponent,
     ExplorerComponent,
     VisualizerComponent,
-    TableComponent
+    TableComponent,
+    EbtnComponent,
+    SbtnComponent
   ],
   imports: [
     BrowserModule
