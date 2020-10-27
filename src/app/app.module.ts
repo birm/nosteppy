@@ -8,6 +8,7 @@ import { VisualizerComponent } from './visualizer/visualizer.component';
 import { TableComponent } from './table/table.component';
 import { EbtnComponent } from './ebtn/ebtn.component';
 import { SbtnComponent } from './sbtn/sbtn.component';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SbtnComponent } from './sbtn/sbtn.component';
     VisualizerComponent,
     TableComponent,
     EbtnComponent,
-    SbtnComponent
+    SbtnComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule
