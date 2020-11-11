@@ -12,4 +12,8 @@ export class TableComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // demo for visual design
+  // TODO replace when binding data
+  fields = ["First Name", "Last Name"]
+  rows = [["Alice", "Application"], ["Bob", "Bson"], ["Charlie", "Configurable"]]
 }

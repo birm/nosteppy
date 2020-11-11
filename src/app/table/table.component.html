@@ -1,1 +1,8 @@
-<p>table works!</p>
+<table>
+  <tr>
+    <th *ngFor="let field of fields">{{field}}</th>
+  </tr>
+  <tr *ngFor="let row of rows">
+    <td *ngFor="let data of row">{{data}}</td>
+  </tr>
+</table>
