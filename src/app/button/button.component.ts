@@ -12,4 +12,6 @@ export class ButtonComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  value = Math.round(Math.random()*100)
+
 }
